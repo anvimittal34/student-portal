@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<students>
+
+    <student>
+        <name>Anvi Mittal</name>
+        <course>CSE AI</course>
+        <semester>1</semester>
+        <marks>92</marks>
+    </student>
+
+    <student>
+        <name>Riya Sharma</name>
+        <course>CSE</course>
+        <semester>1</semester>
+        <marks>88</marks>
+    </student>
+
+    <student>
+        <name>Aarav Singh</name>
+        <course>CSE AI</course>
+        <semester>1</semester>
+        <marks>95</marks>
+    </student>
+
+    <student>
+        <name>Priya Verma</name>
+        <course>IT</course>
+        <semester>1</semester>
+        <marks>81</marks>
+    </student>
+
+    <student>
+        <name>Rahul Kumar</name>
+        <course>CSE</course>
+        <semester>1</semester>
+        <marks>78</marks>
+    </student>
+
+    <student>
+        <name>Simran Gupta</name>
+        <course>CSE AI</course>
+        <semester>1</semester>
+        <marks>90</marks>
+    </student>
+
+</students>

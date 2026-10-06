@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users>
+    <user>
+        <username>anvi</username>
+        <password>1234</password>
+    </user>
+
+    <user>
+        <username>student</username>
+        <password>student123</password>
+    </user>
+</users>

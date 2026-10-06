@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h1 id="heading">Student Portal Dashboard</h1>
+
+        <div class="top-buttons">
+            <button onclick="changeHeading()">Change Heading</button>
+            <button id="modeButton" onclick="toggleMode()">Light / Dark Mode</button>
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section class="cards">
+
+            <div class="card">
+                <h2>Student</h2>
+                <p>Anvi Mittal</p>
+            </div>
+
+            <div class="card">
+                <h2>Course</h2>
+                <p>CSE AI</p>
+            </div>
+
+            <div class="card">
+                <h2>Semester</h2>
+                <p>1st Semester</p>
+            </div>
+
+        </section>
+
+
+        <section class="top-student">
+
+            <h2>🏆 Top Student</h2>
+
+            <p id="topStudent">Loading...</p>
+
+        </section>
+
+
+        <section class="student-section">
+
+            <button id="tableButton" onclick="toggleTable()">
+                Hide Student Table
+            </button>
+
+            <div id="tableContainer">
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Course</th>
+                            <th>Semester</th>
+                            <th>Marks</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="studentTable">
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
